@@ -37,4 +37,45 @@ A simple React-based app to validate Ethereum transactions using the [Etherscan 
 ```bash
 git clone https://github.com/yourusername/tx-validator-app.git
 cd tx-validator-app
+```
 
+### 2. 🛠 Install Dependencies
+
+```bash
+npm install
+```
+
+### T3. Set Up Your API Key
+Create a .env file in the root directory and add your Etherscan API key:
+
+```bash
+REACT_APP_ETHERSCAN_API_KEY=your_key_here
+```
+Or replace YourEtherscanAPIKey in App.js if you want to hardcode (not recommended for production).
+
+### 4. Run the App
+```bash
+npm start
+The app will run on http://localhost:3000
+```
+
+### 📁 File Structure
+```bash
+src/
+├── App.js
+├── components/
+│   └── TxValidatorForm.js
+├── index.js
+└── ...
+
+```
+### 🛠 Future Improvements
+
+Support other chains (BNB Smart Chain, Polygon, etc.)
+Add confirmation count
+Add dark mode
+Deploy to Netlify or Vercel
+
+### 🧑‍💻 Author
+
+Developed by Chinny G.

@@ -12,7 +12,7 @@ export default function TxValidatorApp() {
     sepolia: "https://api-sepolia.etherscan.io/api",
   };
 
-  const apiKey = "7V8G74VZ8TY6VYFM1EIXBPSG4E4R9RDRVF"; // Replace with your key
+  const apiKey = ETHEREUMKEYHERE; // Replace with your key
 
   const handleValidate = async (txHash, network) => {
     setLoading(true);
